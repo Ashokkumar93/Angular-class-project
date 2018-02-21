@@ -1,0 +1,87 @@
+<div class="container-fluid e-commerce-myapp">
+  <div class="row">
+    <!-- <div class="col-md-12 custom-ecommerce-header">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#/ecommerce">E-Commerce</a>
+          </div>
+          <div id="navbar" class="">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mens <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Adult</a></li>
+                  <li><a href="#">Kids</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Womens <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Adult</a></li>
+                  <li><a href="#">Kids</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href=""><i class="glyphicon glyphicon-shopping-cart"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div> -->
+    <div class="col-md-12">
+      <div>
+        <h3 class="page-header text-primary">Men</h3>
+        <div>
+          <h5>Adult</h5>
+          <a ng-repeat="(key, value) in menadultdetails" class="shopping-product-item" href="#/ecommerce/{{value.id}}">
+            <img src="{{value.imgurl}}">
+            <div class="text-center">
+              <strong>{{value.name}}</strong><br>
+              <span>{{value.price}}</span><br>
+              <span>Rating: {{value.rating}}</span>
+            </div>
+          </a>
+        </div>
+        <div>
+          <h5>Kids</h5>
+         <a ng-repeat="(key, value) in menkidsdetails" class="shopping-product-item"
+         href="#/ecommerce/{{value.id}}">
+            <img src="{{value.imgurl}}">
+            <div class="text-center">
+              <strong>{{value.name}}</strong><br>
+              <span>{{value.price}}</span><br>
+              <span>Rating: {{value.rating}}</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h3 class="page-header text-primary">Women</h3>
+        <div>
+          <h5>Adult</h5>
+          <a ng-repeat="(key, value) in womenadultdetails" class="shopping-product-item" href="#/ecommerce/{{value.id}}">
+            <img src="{{value.imgurl}}">
+            <div class="text-center">
+              <strong>{{value.name}}</strong><br>
+              <span>{{value.price}}</span><br>
+              <span>Rating: {{value.rating}}</span>
+            </div>
+          </a>
+        </div>
+        <div>
+          <h5>Kids</h5>
+          <a ng-repeat="(key, value) in womenkidsdetails" class="shopping-product-item" href="#/ecommerce/{{value.id}}">
+            <img src="{{value.imgurl}}">
+            <div class="text-center">
+              <strong>{{value.name}}</strong><br>
+              <span>{{value.price}}</span><br>
+              <span>Rating: {{value.rating}}</span>
+            </div>
+          </a>
+        </div>
+      </div>   
+    </div>
+  </div>
+</div>

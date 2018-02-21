@@ -1,0 +1,22 @@
+<div class="container-fluid shopping-item-checkout-details">
+	<div class="row">
+		<div class="col-md-12">
+			<div ng-repeat="(key, value) in checkoutitems" style="border: 1px solid lightgrey;
+    width: 400px;
+    margin: 5px auto;
+    padding: 10px;">
+				<img src="{{value.imgurl}}" alt="{{value.name}}" style="max-width: 25px; max-height: 25px;"> &nbsp;&nbsp;
+				<span>Name : <span class="text-muted">{{value.name}}</span></span>
+				<span>Price : <span class="text-muted">{{value.price}}</span></span>
+				<span>Items : <span class="text-muted">{{value.noofitems}}</span></span>
+			</div>
+			<div style="border: 1px solid lightgrey;
+    width: 400px;
+    margin: 5px auto;
+    padding: 10px;">
+				<span>Totalprice: <strong>{{totalprice | currency}}</strong></span>&nbsp;&nbsp;
+				<button class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-credit-card"></i>&nbsp;Checkout</button>
+			</div>
+		</div>
+	</div>
+</div>

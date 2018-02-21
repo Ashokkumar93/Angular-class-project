@@ -1,0 +1,71 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="myapp-github-page-header">
+        <h3 class="text-primary">Welcome to github</h3>
+      </div>
+      <div class="myapp-github-user-search col-md-12">
+        <form ng-submit="onGitHubUserSearch()" name="githubsearchform">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="GitHub User Search" ng-model='githubusersearch.name' name="githubsearchfield" required>
+            <div class="input-group-btn">
+              <button class="btn btn-primary" type="submit" ng-disabled="githubsearchform.githubsearchfield.$invalid">Search</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="myapp-github-userdetails-table col-md-12">
+        <div class="table-responsive" ng-if="allusersgetdata">
+          <table class="table table-hover table-striped">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>USER NAME</th>
+                <th>FOLLOWERS</th>
+                <th>FOLLOWING</th>
+                <th>MORE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="(key,value) in githubusers">
+                <td>{{value.id}}</td>
+                <td>{{value.login}}</td>
+                <td><a href="{{value.followers_url}}" target="_blank">follwers</a></td>
+                <td><a href="{{value.following_url}}" target="_blank">follwing</a></td>
+                <td><a href="{{value.html_url}}" target="_blank">more</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table-responsive" ng-if="searchusersgetdata">
+          <table class="table table-hover table-striped">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>USER NAME</th>
+                <th>CREATED DATE</th>
+                <th>LAST UPDATED</th>
+                <th>FOLLOWERS</th>
+                <th>FOLLOWING</th>
+                <th>REPOSITORIES</th>
+                <th>MORE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="(key,value) in searchedgithubusers">
+                <td>{{value.id}}</td>
+                <td>{{value.name}}</td>
+                <td>{{value.created_at}}</td>
+                <td>{{value.updated_at}}</td>
+                <td>{{value.followers}}</td>
+                <td>{{value.following}}</td>
+                <td>{{value.public_repos}}</td>
+                <td><a href="{{value.html_url}}" target="_blank">more</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

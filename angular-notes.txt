@@ -1,0 +1,208 @@
+how to check whether node js is available in your system or not?
+  node -v
+
+npm(node package manager) - to check version
+npm -v
+
+
+Angular js
+----------------
+
+grunt -  javascript task runner 
+yeoman  - package bundler
+
+angular-generator = 
+
+
+Angular js: client side Single Page Application - it follows the MVC(Model View Controller) pattern.
+
+bower.json
+
+bower install
+
+bower_components
+
+package.json
+
+npm install
+
+node_modules
+
+=====================================
+
+mac - sudo
+windows - sudo no need
+
+1. sudo npm install -g generator-angular
+2. yo angular
+3. npm install
+4. bower install
+5. grunt  -> - found
+	not found - sudo npm install -g grunt-cli
+6. serve your application - grunt server
+7. build - grunt build
+
+
+Source version Control:
+Git
+SVN
+
+//for minification
+  .controller('githubCtrl',['$scope','$rootScope', function ($scope, $rootScope) {
+    $scope.appName = "github";
+  }]);
+
+//after minification
+
+.controller('githubCtrl',['$scope','$rootScope', function (a, b) {
+    a.appName = "github";
+  }]);
+
+
+ng-repeat:
+
+iteration to an array. array elements has to be unique
+
+[2,5,8,0,2] - use ng-repeat -> throw an error
+
+ng-show, ng-hide, ng-if:
+------------------------
+
+ng-hide="true" -> DOM - element exist but it won't visible (comment)
+
+ng-show="true" - > DOM element visible
+ng-show="false" -> DOM - element exist but it won't visible (comment)
+
+ng-if="true" -> DOM element exist and visible
+ng-if="false" -> DOM element doesn't exist and not visible
+
+ng-if is more preferable compared to ng-show, ng-hide directives
+
+form validations:
+------------------
+$untouched -> The field has not been touched yet
+$touched -> The field has been touched
+$pristine -> The field has not been modified yet
+$dirty -> The field has been modified
+$invalid -> The field content is not valid
+$valid -> The field content is valid
+
+ng-disabled="true" -> disabled
+ng-disabled="false" -> not disabled
+
+dress:
+
+Man
+ -Adult
+ -kids
+Women
+ -Adult
+ -kids
+
+Filters:
+-------- 
+
+Angular people by default they provide some built-in directives.
+
+var strname = "radhika";
+
+| - pipe symbol
+
+{{'radhika' | uppercase }} - RADHIKA
+{{'RADHIKA' | lowecase}}  - radhika
+
+currency -> Format a number to a currency format.
+date - Format a date to a specified format. {{ date_expression | date : format : timezone}}
+filter: Select a subset of items from an array.
+json: Format an object to a JSON string.
+limitTo: Limits an array/string, into a specified number of elements/characters.
+lowercase: Format a string to lower case.
+number: Format a number to a string.
+orderBy: Orders an array by an expression.
+uppercase: Format a string to upper case.
+
+
+CUSTOM FILTERS:
+================
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+
+<div ng-app="myApp" ng-controller="namesCtrl">
+	{{name | myFormat}}
+</div>
+
+<script>
+var app = angular.module('myApp', []);
+
+app.controller('namesCtrl', function($scope) {
+   $scope.name = 'hEllo';
+});
+
+app.filter('myFormat', function() {
+    return function(name) {
+        
+        var string = name;
+        var resultedtext = '';
+        
+        for( var i = 0; i < string.length; i++){
+        	if(i%2 === 0){
+            //even
+            	resultedtext+=string.charAt(i).toUpperCase();
+            }else{
+            //odd
+            	resultedtext+=string.charAt(i).toLowerCase();
+            }
+        }
+        return resultedtext;
+    };
+});
+
+</script>
+
+
+</body>
+</html>
+
+
+Costom Directives:
+------------------
+
+var module = angular.module('myModule',[]);
+module.controller('myController',[$scope,function($scope){
+  
+}]);
+module.filter('myfilter',function(){
+  return ...;
+})
+module.directive('mydirective', function(){
+  return{
+    //object
+  }
+})
+
+Angular js order of the execution:
+
+app config
+app run
+directive setup
+directive compile
+(app controller dependencies)
+service
+factory
+inner factory
+inner service
+app controller
+filter
+directive linking
+filter render (w.r.t the markup)
+
+
+
+
+
+
+
+
+
+

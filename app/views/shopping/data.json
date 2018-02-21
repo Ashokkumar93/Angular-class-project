@@ -1,0 +1,169 @@
+[
+	
+	{
+		"men": {
+			"adult":[
+
+				{
+					"id":1,
+					"name": "men-Adult-1",
+					"category": "Men",
+					"price": "20$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":4,
+					"imgurl":"../../images/shopping/men-adult1.jpg"
+				},
+				{
+					"id":2,
+					"name": "men-Adult-2",
+					"category": "Men",
+					"price": "50$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":5,
+					"imgurl":"../../images/shopping/men-adult2.jpg"
+				},
+				{
+					"id":3,
+					"name": "men-Adult-3",
+					"category": "Men",
+					"price": "50$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":3,
+					"imgurl":"../../images/shopping/men-adult3.jpg"
+				},
+				{
+					"id":4,
+					"name": "men-Adult-4",
+					"category": "Men",
+					"price": "10$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":5,
+					"imgurl":"../../images/shopping/men-adult4.jpg"
+				}
+
+			],
+			"kids":[
+				{
+					"id":5,
+					"name": "men-Kids-1",
+					"category": "Men",
+					"price": "10$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":5,
+					"imgurl":"../../images/shopping/men-kids1.jpg"
+				},
+				{
+					"id":6,
+					"name": "men-Kids-2",
+					"category": "Men",
+					"price": "20$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":4,
+					"imgurl":"../../images/shopping/men-kids2.jpg"
+				},
+				{
+					"id":7,
+					"name": "men-Kids-3",
+					"category": "Men",
+					"price": "30$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":3,
+					"imgurl":"../../images/shopping/men-kids3.jpg"
+				},
+				{
+					"id":8,
+					"name": "men-Kids-4",
+					"category": "Men",
+					"price": "20$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":5,
+					"imgurl":"../../images/shopping/men-kids4.jpg"
+				}
+
+			]
+		},
+		"women": {
+			"adult":[
+				{
+					"id":9,
+					"name": "women-adult-1",
+					"category": "Women",
+					"price": "20$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":4,
+					"imgurl":"../../images/shopping/women-adult1.jpg"
+				},
+				{
+					"id":10,
+					"name": "women-adult-2",
+					"category": "Women",
+					"price": "30$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":5,
+					"imgurl":"../../images/shopping/women-adult2.jpg"
+				},
+				{
+					"id":11,
+					"name": "women-adult-3",
+					"category": "Women",
+					"price": "40$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":3,
+					"imgurl":"../../images/shopping/women-adult3.jpg"
+				},
+				{
+					"id":12,
+					"name": "women-adult-4",
+					"category": "Women",
+					"price": "20$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":5,
+					"imgurl":"../../images/shopping/women-adult4.jpg"
+				}
+
+			],
+			"kids":[
+				{
+					"id":13,
+					"name": "women-kids-1",
+					"category": "Women",
+					"price": "30$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":5,
+					"imgurl":"../../images/shopping/women-kids1.jpg"
+				},
+				{
+					"id":14,
+					"name": "women-kids-2",
+					"category": "Women",
+					"price": "20$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":4,
+					"imgurl":"../../images/shopping/women-kids2.jpg"
+				},
+				{
+					"id":15,
+					"name": "women-kids-3",
+					"category": "Women",
+					"price": "40$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":3,
+					"imgurl":"../../images/shopping/women-kids3.jpg"
+				},
+				{
+					"id":16,
+					"name": "women-kids-4",
+					"category": "Women",
+					"price": "30$",
+					"Descritpion":"lorepsium lorepsium lorepsium lorepsiumlorepsium lorepsium lorepsium lorepsium lorepsium lorepsium. lorepsium lorepsium lorepsium lorepsium",
+					"rating":4,
+					"imgurl":"../../images/shopping/women-kids4.jpg"
+				}
+
+
+			]
+
+		}
+	
+	}
+]

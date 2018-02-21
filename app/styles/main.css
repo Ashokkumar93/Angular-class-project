@@ -1,0 +1,89 @@
+.header {
+  margin-bottom: 55px;
+}
+
+.ashok-custom-btngroup-btn {
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-right: 3px solid #ffffff;
+}
+
+.footer-copyright {
+  background-color: #333;
+  color: #ccc;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  font-size: 13px;
+}
+
+
+
+/*github css classes*/
+
+.myapp-github-page-header {
+  border-bottom: 1px solid #337ab78f;
+  padding-bottom: 10px;
+}
+
+.myapp-github-user-search {
+  margin: 15px 0px;
+  width: 350px;
+  float: right;
+}
+
+.e-commerce-myapp .custom-ecommerce-header .navbar-default {
+  background-color: #2d7cce;
+  border-color: #2d7cce;
+}
+
+.e-commerce-myapp .custom-ecommerce-header .navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.e-commerce-myapp .custom-ecommerce-header .navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.shopping-product-item {
+  width: fit-content;
+  display: inline-block;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 2px #e6e0e0;
+  cursor: pointer;
+  text-decoration: none;
+  width: 202px;
+  height:262px;
+}
+.shopping-product-item img{
+  height:180px;
+  width:180px;
+}
+
+.shopping-item-img {
+  width: fit-content;
+  display: inline-block;
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 2px 2px 2px #e6e0e0;
+  cursor: pointer;
+  text-decoration: none;
+  min-width: 350px;
+  min-height:320px;
+}
+
+.shopping-item-img img{
+  min-height:330px;
+  min-width:300px;
+}
+
+.shopping-item-content{
+  padding: 10px;
+  margin: 20px;
+}
+
+
+
